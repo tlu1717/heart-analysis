@@ -1,3 +1,4 @@
+# read in each "processed" dataset from UCI
 hd_cl = data.table::fread("https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.cleveland.data")
 hd_hu = data.table::fread("https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.hungarian.data")
 hd_ch = data.table::fread("https://archive.ics.uci.edu/ml/machine-learning-databases/heart-disease/processed.switzerland.data")
@@ -39,3 +40,12 @@ hd$num = factor(dplyr::case_when(
   hd$num == 3 ~ "v3",
   hd$num == 4 ~ "v4"
 ))
+
+# switch "?" to NA
+hd[hd == "?"] = NA
+
+# write to disk
+data.table::fwrite(hd, file = "data/hd.csv")
+
+# clean up
+rm(hd_cl, hd_hu, hd_ch, hd_va, hd)

@@ -1,0 +1,52 @@
+---
+title: "Title of Analysis Goes Here"
+author: "Your Name (netid@illinois.edu)"
+date: "Insert Date Here"
+output:
+  html_document: 
+    theme: default
+    toc: yes
+---
+
+```{r, setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE, fig.align = 'center')
+```
+
+```{r, load-packages, include = FALSE}
+# load packages
+```
+
+```{r read-full-data}
+# read full data
+hd = readr::read_csv("data/hd.csv")
+```
+
+***
+
+## Abstract
+
+> Abstract text goes here.
+
+***
+
+## Introduction
+
+***
+
+## Methods
+
+### Data
+
+### Modeling
+
+***
+
+## Results
+
+***
+
+## Discussion
+
+***
+
+## Appendix
