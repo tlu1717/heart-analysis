@@ -19,10 +19,10 @@ The data stored in `data/hd.csv` was accessed through the UCI Machine Learning R
 
 The data used in the creation of `data/hd.csv` was collected from the four following locations:
 
-1. Cleveland Clinic Foundation - `cleveland.data`
-2. Hungarian Institute of Cardiology, Budapest - `hungarian.data`
-3. V.A. Medical Center, Long Beach, CA - `long-beach-va.data`
-4. University Hospital, Zurich, Switzerland - `switzerland.data`
+1. Cleveland Clinic Foundation
+2. Hungarian Institute of Cardiology, Budapest
+3. V.A. Medical Center, Long Beach, CA
+4. University Hospital, Zurich, Switzerland
 
 The contributors of the data have requested that any publications resulting from the use of the data include the  names of the principal investigator responsible for the data collection at each institution.  They are:
 
