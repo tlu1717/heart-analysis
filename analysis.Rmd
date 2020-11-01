@@ -16,7 +16,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = 'center')
 # load packages
 ```
 
-```{r read-full-data}
+```{r read-full-data, warning = FALSE, message = FALSE}
 # read full data
 hd = readr::read_csv("data/hd.csv")
 ```
@@ -31,22 +31,36 @@ hd = readr::read_csv("data/hd.csv")
 
 ## Introduction
 
+Write your introduction here.
+
 ***
 
 ## Methods
 
+Describe the methods used here.
+
 ### Data
 
+Specifically describe there data and how it is used here.
+
 ### Modeling
+
+Discusion your modeling and validation strategy here.
 
 ***
 
 ## Results
 
+State your results here.
+
 ***
 
 ## Discussion
 
+Discussion your results here.
+
 ***
 
 ## Appendix
+
+Place potential additional information here.
