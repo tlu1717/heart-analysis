@@ -37,15 +37,15 @@ Write your introduction here.
 
 ## Methods
 
-Describe the methods used here.
+Describe the methods used in this section.
 
 ### Data
 
-Specifically describe there data and how it is used here.
+Specifically describe the data and how it is used here.
 
 ### Modeling
 
-Discusion your modeling and validation strategy here.
+Discuss your modeling and validation strategy here.
 
 ***
 
@@ -57,7 +57,7 @@ State your results here.
 
 ## Discussion
 
-Discussion your results here.
+Discuss your results here.
 
 ***
 
