@@ -3,8 +3,10 @@ title: "Predicting Presence of Heart Disease with Fewer Examinations"
 author: "Tiffany Lu (tlu17@illinois.edu)"
 date: "Nov 8, 2020"
 output:
-  html_document: 
+  html_document:
     theme: default
+    toc: yes
+  pdf_document:
     toc: yes
 ---
 
