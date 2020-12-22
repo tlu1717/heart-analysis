@@ -1,6 +1,6 @@
 ---
 title: "Predicting Presence of Heart Disease with Fewer Examinations"
-author: "Tiffany Lu (tlu17@illinois.edu)"
+author: ""
 date: "Nov 8, 2020"
 output:
   html_document:
